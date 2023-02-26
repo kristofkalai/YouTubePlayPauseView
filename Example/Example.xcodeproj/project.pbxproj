@@ -598,7 +598,7 @@
 			repositoryURL = "https://github.com/stateman92/YouTubePlayPauseView";
 			requirement = {
 				kind = exactVersion;
-				version = 0.0.1;
+				version = 0.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/YouTubePlayPauseView",
       "state" : {
-        "revision" : "b73e49c9bda12929406f003526e1c3c4cf4fe8ba",
-        "version" : "0.0.1"
+        "revision" : "1783c899f0922bed4bb4cbfb2d061aaeb0e01b56",
+        "version" : "0.0.2"
       }
     }
   ],
