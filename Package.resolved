@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "animationobserver",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stateman92/AnimationObserver",
+      "state" : {
+        "revision" : "36ec4680027a729a621412d08446ee2ba5d87ac9",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

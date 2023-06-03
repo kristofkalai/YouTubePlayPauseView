@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AnimationObserver
 
 public struct YouTubePlayPauseView {
     @Binding private var playing: Bool
@@ -38,7 +39,7 @@ extension YouTubePlayPauseView: View {
                 progress = progress == .zero ? 1 : .zero
             }
         }
-        .animationObserver(for: progress) {
+        .observeAnimation(for: progress) {
             guard continuousUpdate else { return }
             playing = $0 < 0.5
         } onComplete: {
