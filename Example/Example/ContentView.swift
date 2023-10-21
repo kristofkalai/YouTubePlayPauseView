@@ -15,7 +15,7 @@ struct ContentView: View {
         YouTubePlayPauseView(playing: $playing, continuousUpdate: true, color: .red)
             .frame(width: 100, height: 100)
             .onChange(of: playing) {
-                print("Playing: \($0)")
+                print("Playing: \($0), \($1)")
             }
     }
 }
